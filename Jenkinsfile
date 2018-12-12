@@ -13,7 +13,7 @@ pipeline {
         steps {
           script {
             checkout scm
-             def mvnHome = tool 'Maven'
+             def mvnHome = tool 'maven-1'
               
             try {
                sh "mvn clean install"

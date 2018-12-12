@@ -6,6 +6,11 @@ pipeline {
             script{
                checkout scm
                  def mvnHome = tool 'maven-3'
-                 }
-                }
-               }  
+            }
+         }
+       }
+    }
+                
+                 
+    
+      
